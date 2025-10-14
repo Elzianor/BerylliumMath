@@ -1,31 +1,30 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
-
     <PropertyGroup>
-        <PackageIcon>logo.png</PackageIcon>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
     </PropertyGroup>
 
     <PropertyGroup>
-    <PackageId>BerylliumMath</PackageId>
-    <Version>0.0.3</Version>
-    <Authors>Vladyslav Pysarenko</Authors>
-    <Company>Beryllium Co.</Company>
-    <Description>Collection of different mathematical functions.</Description>
-    <Copyright>Copyright © Beryllium Co. 2025</Copyright>
-    <PackageTags>Beryllium;Mathematics;Math</PackageTags>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <RepositoryUrl>https://github.com/Elzianor/BerylliumMath</RepositoryUrl>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
-  </PropertyGroup>
+        <PackageId>BerylliumMath</PackageId>
+        <Version>0.0.4</Version>
+        <Authors>Vladyslav Pysarenko</Authors>
+        <Company>Beryllium Co.</Company>
+        <Description>Collection of different mathematical functions.</Description>
+        <Copyright>Copyright © Beryllium Co. 2025</Copyright>
+        <PackageTags>Beryllium;Mathematics;Math</PackageTags>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <RepositoryUrl>https://github.com/Elzianor/BerylliumMath</RepositoryUrl>
+    </PropertyGroup>
 
-  <ItemGroup>
-    <None Include="README.md" Pack="true" PackagePath="\"/>
-    <None Include="logo.png" Pack="true" PackagePath="" />
-  </ItemGroup>
+    <PropertyGroup>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageIcon>logo.png</PackageIcon>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="README.md" Pack="true" PackagePath="\"/>
+        <None Include="logo.png" Pack="true" PackagePath=""/>
+    </ItemGroup>
 
 </Project>
