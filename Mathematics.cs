@@ -38,4 +38,16 @@ public static class Mathematics
     {
         return IsEqual(a, b) || a > b;
     }
+
+    // How far between 'min' and 'max' is 'current'
+    public static float InverseLerp(float current, float min, float max)
+    {
+        return (current - min) / (max - min);
+    }
+
+    // Remaps 'current' from [oldMin, oldMax] to [newMin, newMax]
+    public static float Remap(float current, float oldMin, float oldMax, float newMin, float newMax)
+    {
+        return float.Lerp(newMin, newMax, InverseLerp(current, oldMin, oldMax));
+    }
 }
