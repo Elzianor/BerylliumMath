@@ -1,17 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net8.0</TargetFramework>
+        <TargetFramework>net10.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
     </PropertyGroup>
 
     <PropertyGroup>
         <PackageId>BerylliumMath</PackageId>
-        <Version>0.0.5</Version>
+        <Version>0.0.6</Version>
         <Authors>Vladyslav Pysarenko</Authors>
         <Company>Beryllium Co.</Company>
         <Description>Collection of different mathematical functions.</Description>
-        <Copyright>Copyright © Beryllium Co. 2025</Copyright>
+        <Copyright>Copyright © Beryllium Co. 2026</Copyright>
         <PackageTags>Beryllium;Mathematics;Math</PackageTags>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <RepositoryUrl>https://github.com/Elzianor/BerylliumMath</RepositoryUrl>
